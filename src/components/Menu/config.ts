@@ -82,7 +82,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: https://idsdefi.gitbook.io/lunafarm/',
+        href: 'https://idsdefi.gitbook.io/lunafarm/',
       },
       {
         label: 'Blog',
