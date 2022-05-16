@@ -8,12 +8,12 @@ const TACO_MAINNET = `0x3705496ee4614f7fe939e410f5a03df988148e50`
 const farms: FarmConfig[] = [
   {
     risk: 5,
-    lpSymbol: 'In-Dex-BUSD LP',
+    lpSymbol: 'LunaFarm-BUSD LP',
     lpAddresses: {
       97: '0x11CE35aa3eE3639C30FEF3Af9A359A638B29Fba8',
       56: TACO_BUSD_LP_MAINNET,
     },
-    tokenSymbol: 'In-Dex',
+    tokenSymbol: 'LunaFarm',
     tokenAddresses: {
       97: '0x3705496eE4614f7fE939E410f5A03dF988148e50',
       56: TACO_MAINNET,
@@ -23,7 +23,7 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 5,
-    lpSymbol: 'In-Dex-BNB LP',
+    lpSymbol: 'LunaFarm-BNB LP',
     lpAddresses: {
       97: '0x01b1405bEF38652468C9f43861010eB73E0AA443',
       56: TACO_BNB_LP_MAINNET,
@@ -146,12 +146,12 @@ const farms: FarmConfig[] = [
   {
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'In-Dex',
+    lpSymbol: 'LunaFarm',
     lpAddresses: {
       97: '',
-      56: TACO_BUSD_LP_MAINNET, // In-Dex-BUSD LP
+      56: TACO_BUSD_LP_MAINNET, // LunaFarm-BUSD LP
     },
-    tokenSymbol: 'In-Dex',
+    tokenSymbol: 'LunaFarm',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
@@ -165,7 +165,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: TACO_BUSD_LP_MAINNET, // TACO-BUSD LP (BUSD-BUSD will ignore)
+      56: TACO_BUSD_LP_MAINNET, // LunaFarm-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
@@ -310,7 +310,7 @@ const farms: FarmConfig[] = [
       97: '',
       56: '0xc6d0728a0a6acf362cbce0433806d89942fb4403', // LINA-BUSD LP
     },
-    tokenSymbol: 'TACO',
+    tokenSymbol: 'LunaFarm',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
@@ -320,12 +320,12 @@ const farms: FarmConfig[] = [
   },
   {
     risk: 3,
-    lpSymbol: 'TACO-USDC LP',
+    lpSymbol: 'LunaFarm-USDC LP',
     lpAddresses: {
       97: '',
       56: '0xe888076a3fe450cb3b31db7dac82be38faad3174', // LINA-BUSD LP
     },
-    tokenSymbol: 'TACO',
+    tokenSymbol: 'LunaFarm',
     tokenAddresses: {
       97: '',
       56: TACO_MAINNET,
