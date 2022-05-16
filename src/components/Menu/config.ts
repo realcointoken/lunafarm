@@ -74,26 +74,26 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Hacken Audit',
-        href: 'https://luna.farm/files/luna-farm',
+        href: 'https://index.finance/files/in-dex-finance',
       },
       {
         label: 'Github',
-        href: 'https://github.com/realcointoken/lunafarm',
+        href: 'https://github.com/InDexfinance/',
       },
       {
         label: 'Docs',
-        href: 'https://idsdefi.gitbook.io/lunafarm/',
+        href: 'https://idsdefi.gitbook.io/in-dex-sale/the-company/about-this',
       },
       {
         label: 'Blog',
-        href: 'https://luna-farm.medium.com/',
+        href: 'https://index-finance.medium.com/',
       },
     ],
   },
   {
     label: 'Hacken Audit',
     icon: 'AuditIcon',
-    href: 'https://luna-farm/files/lunafarm',
+    href: 'https://index.finance/files/in-dex-finance',
   },
 ]
 
